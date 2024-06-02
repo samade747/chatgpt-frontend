@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import { serverUrl } from './utils/appConstants';
+
 
 function App() {
    const [input, setInput] = useState('');
